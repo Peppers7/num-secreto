@@ -37,7 +37,7 @@ function verificarChute() {
 }
 
 function gerarNumeroAleatorio() {
-    let numeroEscolhido = parseInt(Math.random() * 50 + 1);
+    let numeroEscolhido = parseInt(Math.random() * 100 + 1);
     if(listaNumeroEscolhido.includes(numeroEscolhido)){
       return gerarNumeroAleatorio();
     }else{
